@@ -1,0 +1,267 @@
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+    body{
+      background:linear-gradient(to bottom right,rgb(255, 255, 255), black);
+      width: 100vw;
+      height: 100vh;
+    }
+  
+    #header{
+        text-align: center;
+        letter-spacing: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #header div{
+      display: block;
+      background:linear-gradient(to top left,rgb(255, 255, 255), black);
+    }
+    
+    #back{
+        position: absolute;
+        display: none;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+    #back:hover{
+      animation: rotate 2s infinite;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #header.disabled {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+
+    #gornyRzad.disabled {
+      
+      pointer-events: none;
+    }
+
+    #galeria{
+        width: 90%;
+    }
+
+    .spacer{
+      display: none;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    #header::after{ 
+      background: whitesmoke;
+      content: "";
+      display: block;
+      height: 100px;
+      width: 50px;
+      position: absolute;
+      transform: skewX(-15deg);
+      animation: slide 1s infinite;
+      top:10%
+    }
+
+    #strzalkaL{
+      margin-right: 40px;
+      width: 40px;
+      height: 40px;
+    }
+    #strzalkaP{
+        margin-left: 40px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .zdjecieGaleria{
+      transition: border-radius 2s, border 0.5s;
+    }
+
+    .zdjecieGaleria:hover{
+      border-radius: 20px;
+        border: solid black 4px;
+    }
+
+    .divContainer{
+        position: relative;
+        width: 95%;
+        height: 95%;
+    }
+
+    img{
+        width: 300px;
+        height: 300px;
+        cursor: pointer;
+    }
+    .zdjeciepuste{
+        background-color: white; 
+        opacity: 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    .zdjecieZoom{
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      display: none;
+    }
+
+    .zoomContainer {
+      width: 100%;
+      height: 100%;
+      position: relative;
+    }
+
+  #strzalki {
+    width: 95%;
+    height: 95%;
+  }
+  
+  #strzalki #gornyRzad {
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  
+  #strzalki #gornyRzad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #strzalki .slajd {
+    display: none;
+    width: 100%;
+    flex: 1;
+  }
+  
+  #strzalki .slajd.active {
+    display: block;
+  }
+  
+  #strzalki #dolnyRzad {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #kropki {
+    margin-top: 10px;
+    display: inline-flex;
+    padding: 5px 10px;
+    padding-right: 0;
+    border-radius: 2px;
+  }
+  
+  #kropki .kr {
+    width: 12px;
+    height: 12px;
+    background-color: #858383;
+    display: inline-block;
+    border-radius: 100%;
+    margin-right: 10px;
+    transition: background-color 1s, animation-duration 1s;
+    
+  }
+  #kropki .kr:hover{
+    background-color: black;
+  }
+  
+  .arrow {
+    margin: 0 5px;
+  }
+  
+  .arrow, .kr {
+    cursor: pointer;
+  } 
+
+  @media only screen and (max-width: 767px) {
+
+    body{
+      background:linear-gradient(to bottom right,rgb(139, 139, 139), black);
+      width: 100%;
+      height: 100%;
+    }
+
+    #dolnyRzad{
+      display: none;
+    }
+    #kropki{
+      display: none;
+    }
+    .row{
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+    #strzalki #gornyRzad {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    .col{
+      margin-bottom: 30px;
+    }
+
+    .zdjecieGaleria{
+      margin-top: 10px;
+    }
+    .zdjecieZoom{
+      width: 400px;
+      height: 400px;
+    }
+
+    .spacer{
+      display: block;
+      background-color: black;
+      height: 2px;
+      margin: 0 5% 30px 5%;
+      width: 90%;
+      border-radius: 100%;
+    }
+  }
+  @keyframes rotate {
+    0% {transform: rotate(0deg); }
+    50% {transform: rotate(180deg);}
+    100% {transform: rotate(360deg);}
+  }
+  @keyframes slide {
+    0% { left: 0%; }
+    5% { left: 5%; }
+    10% { left: 10%; }
+    15% { left: 15%; }
+    20% {left: 20%;}
+    25% { left: 25%; }
+    30% {left: 30%; }
+    35% { left: 35%; }
+    40% {left: 40%;}
+    45% { left: 45%; }
+    50% {left: 50%;}
+    55% { left: 55%; }
+    60% { left: 60%; }
+    65% { left: 65%; }
+    70% {left: 70%;}
+    75% { left: 75%; }
+    80% {left: 80%;}
+    85% { left: 85%; }
+    90% {left: 90%; }
+    95% { left: 95%; }
+    100% { left: 100%; }
+  }
