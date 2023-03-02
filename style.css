@@ -50,6 +50,10 @@
       pointer-events: none;
     }
 
+    #kropki.disabled {
+      pointer-events: none;
+    }
+
     #galeria{
         width: 90%;
     }
