@@ -100,6 +100,7 @@ let zd15 = document.querySelector("#zd15");
 let zoomContainer = document.querySelector("#zoomContainer");
 let gornyRzad = document.getElementById('gornyRzad');
 let header = document.getElementById('header');
+let kropki = document.getElementById("kropki");
 
 function powiekszZ1(){
     zd1.style.display = "block";
@@ -109,6 +110,7 @@ function powiekszZ1(){
     galeria.style.opacity = "0.5";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 
 function powiekszZ2(){
@@ -118,6 +120,7 @@ function powiekszZ2(){
     zd2.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 
 function powiekszZ3(){
@@ -127,6 +130,7 @@ function powiekszZ3(){
     zd3.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 
 function powiekszZ4(){
@@ -136,6 +140,7 @@ function powiekszZ4(){
     zd4.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 
 function powiekszZ5(){
@@ -145,6 +150,7 @@ function powiekszZ5(){
     zd5.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ6(){
     zd6.style.display = "block";
@@ -153,6 +159,7 @@ function powiekszZ6(){
     zd6.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ7(){
     zd7.style.display = "block";
@@ -161,6 +168,7 @@ function powiekszZ7(){
     zd7.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ8(){
     zd8.style.display = "block";
@@ -169,6 +177,7 @@ function powiekszZ8(){
     zd8.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ9(){
     zd9.style.display = "block";
@@ -177,6 +186,7 @@ function powiekszZ9(){
     zd9.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ10(){
     zd10.style.display = "block";
@@ -185,6 +195,7 @@ function powiekszZ10(){
     zd10.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ11(){
     zd11.style.display = "block";
@@ -193,6 +204,7 @@ function powiekszZ11(){
     zd11.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ12(){
     zd12.style.display = "block";
@@ -201,6 +213,7 @@ function powiekszZ12(){
     zd12.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 function powiekszZ13(){
     zd13.style.display = "block";
@@ -209,6 +222,7 @@ function powiekszZ13(){
     zd13.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 
 function powiekszZ14(){
@@ -218,6 +232,7 @@ function powiekszZ14(){
     zd14.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 
 function powiekszZ15(){
@@ -227,6 +242,7 @@ function powiekszZ15(){
     zd15.style.opacity = "1";
     gornyRzad.classList.add('disabled');
     header.classList.add('disabled');
+    kropki.classList.add('disabled');
 }
 
 function zniknijZ1(){
@@ -235,6 +251,7 @@ function zniknijZ1(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ2(){
     zd2.style.display = "none";
@@ -242,6 +259,7 @@ function zniknijZ2(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ3(){
     zd3.style.display = "none";
@@ -249,6 +267,7 @@ function zniknijZ3(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ4(){
     zd4.style.display = "none";
@@ -256,6 +275,7 @@ function zniknijZ4(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ5(){
     zd5.style.display = "none";
@@ -263,6 +283,7 @@ function zniknijZ5(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ6(){
     zd6.style.display = "none";
@@ -270,6 +291,7 @@ function zniknijZ6(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ7(){
     zd7.style.display = "none";
@@ -277,6 +299,7 @@ function zniknijZ7(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ8(){
     zd8.style.display = "none";
@@ -284,6 +307,7 @@ function zniknijZ8(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ9(){
     zd9.style.display = "none";
@@ -291,6 +315,7 @@ function zniknijZ9(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ10(){
     zd10.style.display = "none";
@@ -298,6 +323,7 @@ function zniknijZ10(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ11(){
     zd11.style.display = "none";
@@ -305,6 +331,7 @@ function zniknijZ11(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ12(){
     zd12.style.display = "none";
@@ -312,6 +339,7 @@ function zniknijZ12(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ13(){
     zd13.style.display = "none";
@@ -319,6 +347,7 @@ function zniknijZ13(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ14(){
     zd14.style.display = "none";
@@ -326,6 +355,7 @@ function zniknijZ14(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 function zniknijZ15(){
     zd15.style.display = "none";
@@ -333,6 +363,7 @@ function zniknijZ15(){
     galeria.style.opacity = "1";
     gornyRzad.classList.remove('disabled');
     header.classList.remove('disabled');
+    kropki.classList.remove('disabled');
 }
 
 
